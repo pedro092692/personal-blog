@@ -1,0 +1,20 @@
+{
+  "name": "personal-blog",
+  "version": "1.0.0",
+  "description": "A simple and customizable personal blog built Python flask",
+  "scripts": {
+    "build": "webpack",  # Assuming you use Webpack for building assets
+    "test": "jest",  # Assuming you use Jest for testing
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedro092692/personal-blog.git"
+  },
+  "author": "Your Name or Pseudonym",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedro092692/personal-blog/issues"
+  },
+  "homepage": "https://github.com/pedro092692/personal-blog#readme"
+}
