@@ -1,0 +1,15 @@
+{% macro render_flash_message() %}
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      {% for message in messages %}
+        <p class="flash">{{ message }}</p>
+      {% endfor %}
+    {% endif %}
+  {% endwith %}
+{% endmacro %}
+
+{% macro render_admin(user, html_string) %}
+  {% if user.id == 1 %}
+    {{ html_string | safe }}
+  {% endif %}
+{% endmacro %}
